@@ -1,12 +1,8 @@
-console.log('remember my')
-a = 1 
-console.log('halo')
+var drawCats = function (howManyTimes) {
+  for (var i = 0; i < howManyTimes; i++) {
+      console.log(i + " =^.^=");
+  }
+};
+drawCats(3);
 
-console.log('5')
-
-function test(){
-  b = a ++
-  console.log(b)
-}
-
-test
+//sdsdsd
